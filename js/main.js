@@ -18,7 +18,7 @@ class Form {
         this.html = `
       <form>
         <label>Name:</label>
-        <input type="text" name="name" minlength="10" required>
+        <input type="text" name="name" required minlength="10">
         <br>
         <label>Age:</label>
         <input type="number" name="age" required>
